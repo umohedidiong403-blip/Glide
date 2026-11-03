@@ -1,0 +1,74 @@
+*{
+padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color : #12372A;
+}
+header{
+    display : flex;
+    gap :10rem;
+    align-items : center;
+    padding : 2rem 3rem;
+}
+.brand{
+    font-family : Lexend Zetta, sans-serif;
+    font-size : 3.1rem;
+    font-weight : 700;
+    color : #FBFADA;
+}
+ul{
+    display : flex;
+    gap : 5rem;
+    list-style-type : none;
+}
+li > a{
+    text-decoration : none;
+    font-family : Sansita Swashed, sans-serif;
+    font-size : 1.6rem;
+    color : #FBFADA;
+}
+main{
+    padding: 5rem 5rem;
+}
+.hero{
+    display: flex;
+    align-items: center;
+}
+.ultimate-h{
+    font-family : Lexend Zetta, sans-serif;
+    font-size : 2rem;
+    font-weight: 700;
+    color : #adbc9f;
+    padding-left : 3rem;
+    text-transform : uppercase;
+    width: 80%;
+    text-align : center;
+}
+.burger-h{
+    font-family : Sansita Swashed, sans-serif;
+    font-size : 6rem;
+    font-weight : 700;
+    color : #FBFADA;
+    text-transform : capitalize;
+}
+.savor-p{
+    color : #adbc9f;
+    font-family : Lexend Zetta, sans-serif;
+    font-size : 1.25rem;
+    text-align : center;
+}
+img{
+    width : 20rem;
+    height : 20rem;
+}
+.small-imgs{
+    display : flex;
+    gap : 2rem;
+    padding : 3rem 13rem;
+}
+.small-img{
+    width : 5rem;
+    height : 5rem;
+}
