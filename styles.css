@@ -1,5 +1,5 @@
 *{
-padding: 0;
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
@@ -71,4 +71,40 @@ img{
 .small-img{
     width : 5rem;
     height : 5rem;
+}
+h1{
+    font-size: 3rem;
+    color: #FFFFFF;
+    font-family: "Lexend Zetta", sans-serif;
+   
+    margin-bottom: 30px;
+    text-align: center;
+}
+.articles{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap : 1rem;
+    width: 50%;
+    margin: auto;
+    
+}
+article{
+    
+    background: linear-gradient(to bottom, #3F5F52, #2C4A3E);
+    border-radius: 20px;
+    padding-left:30px;
+}
+.box-img{
+    width: 100%;
+
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-family: Lexend Zetta;
+    font-size: 1rem;
 }
